@@ -14,6 +14,7 @@
 		9E408B161F29B27700028A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E408B141F29B27700028A18 /* LaunchScreen.storyboard */; };
 		9E408B211F29B27700028A18 /* test_modelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E408B201F29B27700028A18 /* test_modelTests.swift */; };
 		9E408B2C1F29B27700028A18 /* test_modelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E408B2B1F29B27700028A18 /* test_modelUITests.swift */; };
+		9E408B3B1F29B31100028A18 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E408B391F29B31100028A18 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9E408B271F29B27700028A18 /* test_modelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_modelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E408B2B1F29B27700028A18 /* test_modelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_modelUITests.swift; sourceTree = "<group>"; };
 		9E408B2D1F29B27700028A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E408B3A1F29B31100028A18 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				9E408B0B1F29B27700028A18 /* AppDelegate.swift */,
+				9E408B391F29B31100028A18 /* Model.xcdatamodeld */,
 				9E408B0D1F29B27700028A18 /* ViewController.swift */,
 				9E408B0F1F29B27700028A18 /* Main.storyboard */,
 				9E408B121F29B27700028A18 /* Assets.xcassets */,
@@ -193,7 +196,8 @@
 				TargetAttributes = {
 					9E408B071F29B27700028A18 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 9KBH5RKYEW;
+						ProvisioningStyle = Manual;
 					};
 					9E408B1B1F29B27700028A18 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -261,6 +265,7 @@
 			files = (
 				9E408B0E1F29B27700028A18 /* ViewController.swift in Sources */,
 				9E408B0C1F29B27700028A18 /* AppDelegate.swift in Sources */,
+				9E408B3B1F29B31100028A18 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,10 +419,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9KBH5RKYEW;
 				INFOPLIST_FILE = test_model/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mobile-center-build.test-model";
+				PRODUCT_BUNDLE_IDENTIFIER = meirav.test.model;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
+				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,10 +435,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9KBH5RKYEW;
 				INFOPLIST_FILE = test_model/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mobile-center-build.test-model";
+				PRODUCT_BUNDLE_IDENTIFIER = meirav.test.model;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
+				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -525,6 +538,20 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E408B391F29B31100028A18 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E408B3A1F29B31100028A18 /* Model.xcdatamodel */,
+			);
+			currentVersion = 9E408B3A1F29B31100028A18 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9E408B001F29B27700028A18 /* Project object */;
 }
