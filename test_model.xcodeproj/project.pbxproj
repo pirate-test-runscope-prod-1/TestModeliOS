@@ -424,6 +424,7 @@
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = test_model/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_VERIFY_BITCODE = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.runscope.all";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5fc8b8fe-a070-48dd-8dc5-5aef62e0e346";
@@ -441,6 +442,7 @@
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = test_model/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_VERIFY_BITCODE = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.runscope.all";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5fc8b8fe-a070-48dd-8dc5-5aef62e0e346";
