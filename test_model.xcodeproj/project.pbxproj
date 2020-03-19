@@ -197,15 +197,18 @@
 					9E408B071F29B27700028A18 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 9KBH5RKYEW;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Manual;
 					};
 					9E408B1B1F29B27700028A18 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 9E408B071F29B27700028A18;
 					};
 					9E408B261F29B27700028A18 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 9E408B071F29B27700028A18;
 					};
@@ -427,7 +430,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
 				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -443,7 +447,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
 				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -456,7 +461,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mobile-center-build.test-modelTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_model.app/test_model";
 			};
 			name = Debug;
@@ -470,7 +476,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mobile-center-build.test-modelTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_model.app/test_model";
 			};
 			name = Release;
@@ -483,7 +490,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mobile-center-build.test-modelUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = test_model;
 			};
 			name = Debug;
@@ -496,7 +504,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mobile-center-build.test-modelUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = test_model;
 			};
 			name = Release;
@@ -520,6 +529,7 @@
 				9E408B321F29B27700028A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E408B331F29B27700028A18 /* Build configuration list for PBXNativeTarget "test_modelTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +538,7 @@
 				9E408B351F29B27700028A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E408B361F29B27700028A18 /* Build configuration list for PBXNativeTarget "test_modelUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +547,7 @@
 				9E408B381F29B27700028A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
