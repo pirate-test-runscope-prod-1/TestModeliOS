@@ -421,10 +421,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = UBF8T346G9;
+				DEVELOPMENT_TEAM = BGSR8DRP9M;
 				INFOPLIST_FILE = test_model/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.runscope.all";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akvelon.dri.runscope.all";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5fc8b8fe-a070-48dd-8dc5-5aef62e0e346";
 				PROVISIONING_PROFILE_SPECIFIER = "Appcenter Runscope Test Development";
@@ -438,10 +438,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = UBF8T346G9;
+				DEVELOPMENT_TEAM = BGSR8DRP9M;
 				INFOPLIST_FILE = test_model/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.runscope.all";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akvelon.dri.runscope.all";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5fc8b8fe-a070-48dd-8dc5-5aef62e0e346";
 				PROVISIONING_PROFILE_SPECIFIER = "AppCenter test app TestModel";
@@ -456,7 +456,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = test_modelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mobile-center-build.test-modelTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akvelon.dri.test-modelTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_model.app/test_model";
@@ -470,7 +470,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = test_modelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mobile-center-build.test-modelTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akvelon.dri.test-modelTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_model.app/test_model";
@@ -483,7 +483,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = test_modelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mobile-center-build.test-modelUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akvelon.dri.test-modelUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = test_model;
@@ -496,7 +496,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = test_modelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mobile-center-build.test-modelUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akvelon.dri.test-modelUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = test_model;
